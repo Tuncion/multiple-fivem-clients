@@ -1,8 +1,11 @@
-# multiple-fivem-clients
+# Multiple FiveM Clients
 
 ## Introduction
 This tutorial is for FiveM developers who are creating interactions or systems with multiple players (Peds). Normally you always have to ask your friend etc. to come to the server to test it. Here I explain how to run FiveM multiple times on one PC with different Rockstar accounts (different identifiers). 
 
+## ⚠️ Important Advices
+- Sometimes, when you start the second account, the game freezes and crashes/shuts down. \
+**_Solution:_** Restart the FiveM clients
 ------------------------------------------------------------------------------
 
 ## Requirements
@@ -18,8 +21,8 @@ This tutorial is for FiveM developers who are creating interactions or systems w
 ## Installation
 
 ### **Create and save the AccountData file**.
-1. Go to your %AppData% under Local/DigitalEntitlements.
-2. Create the "AccountsData" folder.
+1. Go to your `%AppData%` under `Local/DigitalEntitlements`.
+2. Create the `AccountsData` folder.
 3. Delete the current **"38d8f400-aa8a-4784-a9f0-26a08628577e "** file (this is where the Rockstar account is stored)
 4. Now start FiveM, it will ask you to log in with your Rockstar account.
 5. After successful login, the **"38d8f400-aa8a-4784-a9f0-26a08628577e "** file will be created automatically.
@@ -41,8 +44,6 @@ This tutorial is for FiveM developers who are creating interactions or systems w
 15. Always increase the **-cl** parameter number (your first account should be **-cl1**, your second **-cl2**...)
 16. Now do step **10. - 15.** again with each account you want.\
 ![FiveM Start Shortcuts](https://i.ibb.co/YB73rwJ/FiveMStart-Shortcuts.png)
-
-#
 
 ## Examples
 ### **You can find my examples in the examples folder**
