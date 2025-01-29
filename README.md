@@ -37,15 +37,19 @@ This tutorial is for FiveM developers who are creating interactions or systems w
 9. Go to your FiveM root folder (should stay in **AppData/Local/FiveM**)\
 ![FiveM root folder](https://i.ibb.co/1QtQ0QF/FiveMRoot-Folder.png)
 10. Copy the **template.bat** into this folder
-11. Rename it so you can recognize it (I will call it **"StartMultipleAccounts.bat "** and **"StartTestingAccount.bat "**)
+11. Rename it so you can recognize it (I will call it **"StartMainAccount.bat "** and **"StartTestingAccount.bat "**)
 12. Now edit the file with your values
 13. Insert in the first copy command the absolute path to your AccountData with the correct suffix in copy parameter 1
 14. Insert in the first copy command the absolute path to your DigitalEntitlements folder without the suffix in the copy parameter 2
-15. Repeat step **13. - 14.** for the next copy command (for your second account / TestingAccount)
 15. Always increase the **-cl** parameter number (your first account should be **-cl1**, your second **-cl2**...)
-16. If you don't want to start in windowed mode remove **-windowed** parameter
-16. If you want to add more accounts, you can insert the next copy command after **-cl2**.\
+16. Now do step **10. - 15.** again with each account you want.\
 ![FiveM Start Shortcuts](https://i.ibb.co/YB73rwJ/FiveMStart-Shortcuts.png)
+17. *Optional:* Make a copy of **StartMultipleAccounts.bat** and adjust it to your needs.  
+This file makes it easier to launch multiple FiveM accounts at once. Just run it, and all the accounts/FiveM clients will open automatically.
+
+## 📘 Note:
+- If you don't want to start in windowed mode remove **-windowed** parameter
+- If you want to add more accounts, you can insert the next copy command after **-cl2**.
 
 ## Examples
 ### **You can find my examples in the examples folder**
