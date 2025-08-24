@@ -1,5 +1,11 @@
 # Multiple FiveM Clients
 
+## IMPORTANT NEWS
+⚠️⚠️ It seems that FiveM has changed the logic behind authentication and interaction with two clients and blocked it. If I find a solution, I will publish it.
+If you have a solution, please contact me.
+
+
+
 ## Introduction
 This tutorial is for FiveM developers who are creating interactions or systems with multiple players (Peds). Normally you always have to ask your friend etc. to come to the server to test it. Here I explain how to run FiveM multiple times on one PC with different Rockstar accounts (different identifiers). 
 
